@@ -11,7 +11,7 @@ using (LoadingHud.Show("Loading..."))
 
 | Android | iOS |
 |:---:|:---:|
-| ![Android](https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/docs/android-demo.gif) | ![iOS](https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/docs/ios-demo.gif) |
+| ![Android](https://github.com/user-attachments/assets/4cb3ff17-f499-4821-a44b-c7172e040167) | ![iOS](https://github.com/user-attachments/assets/84998022-7c5c-48ef-9b22-9fb24745f482) |
 
 ## Why use it
 
