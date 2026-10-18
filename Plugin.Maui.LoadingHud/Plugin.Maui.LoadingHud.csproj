@@ -23,8 +23,19 @@
 		<Description>Tiny full-screen loading HUD for .NET MAUI (Android + iOS). Lottie, image or activity indicator, configurable once at startup and overridable per Show().</Description>
 		<PackageTags>maui;loading;loader;hud;lottie;dialog;ios;android</PackageTags>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<RepositoryUrl>https://github.com/PrathamsGithub/Plugin.Maui.LoadingHud</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/PrathamsGithub/Plugin.Maui.LoadingHud</PackageProjectUrl>
+		<RepositoryType>git</RepositoryType>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+    	<NoWarn>$(NoWarn);CS1591</NoWarn>
 	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
